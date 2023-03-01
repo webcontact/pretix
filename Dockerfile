@@ -1,4 +1,4 @@
-FROM pretix/standalone:4.5
+FROM pretix/standalone:4.17
 USER root
 RUN pip3 install pretix-passbook
 RUN pip3 install pretix-mollie
